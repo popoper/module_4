@@ -1,6 +1,3 @@
-I = str(input())
-E = I[::-1]
-if I == E:
-  print(True)
-else:
-  print(False)
+<img class="fit-picture"
+     src="C:\Users\lunko\PycharmProjects\pythonProject\skelet.gif"
+     alt="Spooky, scary skeletons  Send shivers down your spine">
