@@ -28,6 +28,10 @@
     <input id="field4" type="date">
     <br>
 
+    <label class="lead" for="field5">Как вам наш сервис?</label>
+    <textarea id="field5" name="story" rows="5" cols="33"></textarea>
+    <br>
+
     <input type="hidden">
     <br>
 
