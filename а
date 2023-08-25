@@ -1,0 +1,5 @@
+1   @admin.display(description='фото')
+    def get_html_image(self):
+        if self.image:
+            return format_html('<img src="{url}" style="max-width: 80px; max-height: 80px;"', url=self.image.url)
+2 <img src="{% if adv.image %} {{adv.image.url}} {% else %} {% static 'img/adv.png' %} {% endif %}" class="img-fluid rounded-start" alt="Card title">
